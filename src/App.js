@@ -66,11 +66,11 @@ class App extends Component {
     } else {
       return (
         <div>
-        {data.map((d, index) => {
+        {data.map((d) => {
+          console.log(d.seq)
           return (
-            <div>
+            <div key={d.seq}>
             <Foodinfo
-            key={index}
             routeNm={d.routeNm}
             stdRestNm={d.stdRestNm}
             foodNm={d.foodNm}

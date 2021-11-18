@@ -1,6 +1,6 @@
 function Foodinfo({...rest}) {
 
-    const {seq, routeNm, stdRestNm, foodNm, foodCost, etc, foodMaterial} = rest
+    const {routeNm, stdRestNm, foodNm, foodCost, etc, foodMaterial} = rest
 
     return (
         <div>
